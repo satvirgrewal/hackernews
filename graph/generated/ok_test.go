@@ -1,8 +1,10 @@
 package generated
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func checkTest() {
-	test := new(TestStruct)
+	test := TestStruct{}
 	fmt.Printf("%v", test)
 }
